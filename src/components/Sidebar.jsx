@@ -6,7 +6,7 @@ const Sidebar = () => {
     return (
         <div className='w-[23%] h-full p-2 flex-col gap-2 text-white hidden lg:flex'>
             <div className="bg-[#121212] h-[15%] rounded flex flex-col justify-around">
-                <Link to={'/'} className="flex items-center gap-3 pl-8 cursor-pointer">
+                <Link to={'/spotify-clone'} className="flex items-center gap-3 pl-8 cursor-pointer">
                     <img src={assets.home_icon} alt="" className='w-6' />
                     <p className='font-bold'>Home</p>
                 </Link>
