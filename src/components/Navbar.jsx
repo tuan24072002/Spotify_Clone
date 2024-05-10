@@ -9,8 +9,8 @@ const Navbar = () => {
         <>
             <div className="w-full flex justify-between items-center font-semibold">
                 <div className="flex items-center gap-2">
-                    <img className={`w-8 ${location.pathname !== '/spotify-clone' ? 'bg-gray-950' : 'bg-gray-900'} p-2 rounded-2xl ${location.pathname !== '/spotify-clone' ? 'cursor-pointer' : 'cursor-not-allowed'}`} src={assets.arrow_left} alt="" onClick={() => navigate(-1)} />
-                    <img className={`w-8  ${location.pathname === '/spotify-clone' ? 'bg-gray-950' : 'bg-gray-900'} p-2 rounded-2xl  ${location.pathname === '/spotify-clone' ? 'cursor-pointer' : 'cursor-not-allowed'}`} src={assets.arrow_right} alt="" onClick={() => navigate(+1)} />
+                    <img className={`w-8 ${location.pathname !== '/Spotify_Clone' ? 'bg-gray-950' : 'bg-gray-900'} p-2 rounded-2xl ${location.pathname !== '/Spotify_Clone' ? 'cursor-pointer' : 'cursor-not-allowed'}`} src={assets.arrow_left} alt="" onClick={() => navigate(-1)} />
+                    <img className={`w-8  ${location.pathname === '/Spotify_Clone' ? 'bg-gray-950' : 'bg-gray-900'} p-2 rounded-2xl  ${location.pathname === '/Spotify_Clone' ? 'cursor-pointer' : 'cursor-not-allowed'}`} src={assets.arrow_right} alt="" onClick={() => navigate(+1)} />
                 </div>
                 <div className="flex items-center gap-4 justify-between w-max">
                     <p className='bg-white text-black text-[15px] px-4 py-1 rounded-2xl font-semibold hidden md:block hover:px-5 hover:font-bold cursor-pointer'>Explore Premium</p>

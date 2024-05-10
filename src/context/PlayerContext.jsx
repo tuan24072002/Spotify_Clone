@@ -72,6 +72,7 @@ const PlayerContextProvider = (props) => {
                 })
             }
         }, 1000);
+
     }, [audioRef])
     const contextValue = {
         audioRef,

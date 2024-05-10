@@ -20,8 +20,8 @@ const Display = () => {
     return (
         <div ref={displayRef} className='w-full m-2 px-6 pt-4 rounded bg-[#121212] text-white overflow-auto lg:w-[77%] lg:ml-0'>
             <Routes>
-                <Route path='/spotify-clone' element={<DisplayHome />} />
-                <Route path='/spotify-clone/album/:id' element={<DisplayAlbum />} />
+                <Route path='/Spotify_Clone' element={<DisplayHome />} />
+                <Route path='/Spotify_Clone/album/:id' element={<DisplayAlbum />} />
             </Routes>
         </div>
     )
