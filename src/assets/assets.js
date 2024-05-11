@@ -31,6 +31,7 @@ import img17 from './img17.jpg'
 import img7 from './img7.jpg'
 import img8 from './img8.jpg'
 import img19 from './img19.jpg'
+import img20 from './img20.jpg'
 import img18 from './img18.jpg'
 import img11 from './img11.jpg'
 import img12 from './img12.jpg'
@@ -42,7 +43,7 @@ import song1 from './song1.mp3'
 import song2 from './song2.mp3'
 import song3 from './song3.mp3'
 import ctctl from './chung-ta-cua-tuong-lai.mp3'
-
+import skydecade from './skydecade.mp3'
 export const assets = {
     bell_icon,
     home_icon,
@@ -122,11 +123,20 @@ export const songsData = [
         image: img19,
         file: ctctl,
         desc: "Sơn Tùng M-TP",
-        duration: "3:00",
-        plays: "879,460"
+        duration: "4:37",
+        plays: "1,205,428"
     },
     {
         id: 1,
+        name: "Sky Decade",
+        image: img20,
+        file: skydecade,
+        desc: "Sơn Tùng M-TP",
+        duration: "1:23",
+        plays: "1,024,193"
+    },
+    {
+        id: 2,
         name: "Song One",
         image: img1,
         file: song1,
@@ -135,7 +145,7 @@ export const songsData = [
         plays: "879,460"
     },
     {
-        id: 2,
+        id: 3,
         name: "Song Two",
         image: img2,
         file: song2,
@@ -144,7 +154,7 @@ export const songsData = [
         plays: "773,529"
     },
     {
-        id: 3,
+        id: 4,
         name: "Song Three",
         image: img3,
         file: song3,
@@ -153,7 +163,7 @@ export const songsData = [
         plays: "593,810"
     },
     {
-        id: 4,
+        id: 5,
         name: "Song Four",
         image: img4,
         file: song1,
@@ -162,7 +172,7 @@ export const songsData = [
         plays: "552,698"
     },
     {
-        id: 5,
+        id: 6,
         name: "Song Five",
         image: img5,
         file: song2,
@@ -171,7 +181,7 @@ export const songsData = [
         plays: "549,182"
     },
     {
-        id: 6,
+        id: 7,
         name: "Song Six",
         image: img14,
         file: song3,
@@ -180,7 +190,7 @@ export const songsData = [
         plays: "508,316"
     },
     {
-        id: 7,
+        id: 8,
         name: "Song Seven",
         image: img7,
         file: song1,
@@ -189,7 +199,7 @@ export const songsData = [
         plays: "463,684"
     },
     {
-        id: 8,
+        id: 9,
         name: "Song Eight",
         image: img12,
         file: song2,
